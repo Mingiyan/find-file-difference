@@ -1,6 +1,6 @@
 # Find-file-difference
 
-Find modified files in the same folders and copy from the first folder to the second. If you need to backup unmodified files.
+Find modified files in the same folders and copy from the first folder to the second. If you need to backup unmodified files to another folder.
 
 Сравнивание двух папок с файлами, если какие то файлы были модифицорованы, то замена на новые. Можно делать бэкап старых файлов в отдельную папку.
 
