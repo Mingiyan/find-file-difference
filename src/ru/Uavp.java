@@ -16,6 +16,8 @@ public class Uavp {
         String message = "";
         String hash1 = "";
         String hash2 = "";
+        String path = "";
+        String needFile = "";
         String folder1 = fullPath.split(";")[0];
         String folder2 = fullPath.split(";")[1];
         try {
@@ -27,8 +29,8 @@ public class Uavp {
 
         for (int i = 0; i < list1.size(); i++) {
 
-            String path = list1.get(i).getParent().replace(folder1,"");
-            String needFile = filesFinder(folder2 + "/" + path,list1.get(i).getName());
+            path = list1.get(i).getParent().replace(folder1,"");
+            needFile = filesFinder(folder2 + "/" + path,list1.get(i).getName());
             if (needFile != null) {
                 hash1 = uavp.getMD5Checksum(list1.get(i).toString());
                 hash2 = uavp.getMD5Checksum(needFile);
