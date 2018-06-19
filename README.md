@@ -10,4 +10,4 @@ Usage:
 ```
 - folder1 - First main folder.
 - folder2 - The second folder in which you want to make changes from the first.
-- folder3 - Folder to backup.
+- folder3 - Folder to backup. Can not use.
